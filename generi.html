@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Mondo</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="imm/METEO_Logo_-_Original_-_5000x5000.png" id="logo" alt="logo">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li class="link"><a href="index.html">Home</a></li>
+            <li class="link"><a href="search.html">Search</a></li>
+            <li class="link"><a href="chiSiamo.html">Noi</a></li>
+        </ul>
+    </nav>
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>MONDO</h4>
+            <H1>Meteo <span>Previsione </span>Reale</H1>
+            <p>
+                qui puoi sperimentare la nostra cartina del mondo, provando le varie funzioni del menù sulla destra
+            </p>
+        </div>
+    </header>
+    <script src="script.js"></script>
+    <div class="features" style="margin: 158px;">
+        <div class="card">
+            <iframe src="https://www.meteoblue.com/it/tempo/mappe/widget/milano_italia_2661604?utm_source=0&windAnimation=1&gust=0&gust=1&satellite=0&satellite=1&cloudsAndPrecipitation=0&cloudsAndPrecipitation=1&temperature=0&temperature=1&sunshine=0&sunshine=1&extremeForecastIndex=0&extremeForecastIndex=1&geoloc=fixed&tempunit=C&windunit=km%252Fh&lengthunit=metric&zoom=5&autowidth=auto"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 900px; height: 600px; border-radius: 20px;"></iframe><div><a href="https://www.meteoblue.com/it/tempo/mappe/milano_italia_2661604?utm_source=weather_widget&utm_medium=linkus&utm_content=map&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener"></a></div>
+        </div>
+    </div>
+    <div class="rest">
+        <footer>
+            <div class="background">
+                <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 1600 900"
+                >
+                    <defs>
+                    <path
+                        id="wave"
+                        fill="rgba(13, 63, 131, 0.8)"
+                        d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+                        s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z"
+                    />
+                    </defs>
+                    <g>
+                    <use xlink:href="#wave" opacity=".4">
+                        <animateTransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        type="translate"
+                        dur="8s"
+                        calcMode="spline"
+                        values="270 230; -334 180; 270 230"
+                        keyTimes="0; .5; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                        repeatCount="indefinite"
+                        />
+                    </use>
+                    <use xlink:href="#wave" opacity=".6">
+                        <animateTransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        type="translate"
+                        dur="6s"
+                        calcMode="spline"
+                        values="-270 230;243 220;-270 230"
+                        keyTimes="0; .6; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                        repeatCount="indefinite"
+                        />
+                    </use>
+                    <use xlink:href="#wave" opacty=".9">
+                        <animateTransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        type="translate"
+                        dur="4s"
+                        calcMode="spline"
+                        values="0 230;-140 200;0 230"
+                        keyTimes="0; .4; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                        repeatCount="indefinite"
+                        />
+                    </use>
+                    </g>
+                </svg>
+            </div>
+            <section>
+            <ul class="socials">
+                <li><a href="https://mail.google.com/mail/?tab=rm&ogbl"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a></li>
+                <li><a href="assistenza.html"><i class="fa-solid fa-circle-info" style="color: #ffffff;"></i></a></li>
+                <li><a href="register.html"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a></li>
+            </ul>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chiSiamo.html">chi siamo?</a></li>
+                <li><a href="register.html">login</a></li>
+            </ul>
+            <p class="legal">© 2024 All rights reserved</p>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>

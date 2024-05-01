@@ -1,0 +1,74 @@
+header{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    background-color: rgba(28, 28, 28, 0.336);
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+html{
+    background-image: url(https://wallpapercave.com/wp/wp10154435.jpg);
+    background-size: cover;
+    image-resolution: 1920 x 1080;
+}
+.input{
+    margin: 30px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+.input input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+::placeholder{
+    color: #ccc;
+}
+.visualizza_pass{
+    position: absolute;
+}
+#nascondi1{
+    display: none;
+}
+.bottone_login{
+    margin: 40px 40px 20px;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ffffff1e;
+    transition: 0.75s;
+}
+.bottone_login:hover{
+   padding: 13px;
+   transition: 0.75s;
+   font-size: 15px;
+}
+.accedi{
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
